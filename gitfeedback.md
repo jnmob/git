@@ -32,7 +32,7 @@ GitHub
 ```
 
 정리하자면 :
-- Git = 버전 관리
+- Git = 내 컴에서 버전 관리
 - GitHub = 코드계의 클라우드 스탈~
 
 ## 2. Git의 전체 흐름
@@ -52,7 +52,7 @@ local repository
 ↓
 git push
 ↓
-github
+github (remote repository)
 ```
 
 ### git add
@@ -116,17 +116,23 @@ remote repository (깃헙)
 
 예를들어 
 
-파일을 수정했다치면 
+파일을 수정 후 status -
 Changes not staged for commit:
 
     modified: index.html
 
     = Index.html이 수정됐지만 git add 하지 않음.
 
-git add를 했다치면 
+git add후 status - 
 Changes to be committed:
 
     modified: index.html
 
 = index.html이 커밋할 준비가 됨.
+
+commit후 status - 
+nothing to commit, working tree clean
+
+= 커밋 후에는 변경사항 없으니까.
+
 
