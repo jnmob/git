@@ -176,7 +176,7 @@ Changes not staged for commit:
 `git log` 
 - 커밋의 고유 ID (커밋 해쉬)
 - 누가 커밋했는지
-- 언제 커밋했는자 
+- 언제 커밋했는지
 - 커밋 메시지 
 
 `git log --oneline`
