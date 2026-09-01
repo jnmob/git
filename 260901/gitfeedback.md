@@ -193,5 +193,3 @@ Changes not staged for commit:
 
 `git log 화면에서 쓰는 키`
 q - 종료 (터미널로 복귀)
-
-이정도만 할게 시ㅣ바
