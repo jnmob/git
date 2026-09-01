@@ -1,4 +1,4 @@
-# Git 
-## git add .
-### git commit -m 'First Repository'
-#### git push
+## 개모키
+### 선생 - 구준혁
+### 학생 - 김준모
+### 260831 시작
