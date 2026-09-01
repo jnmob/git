@@ -61,7 +61,7 @@ github (remote repository)
 
 vs code에서 파일 수정을 하고
 cmd + s 를 하면 
-파일 옆에 이니셜 M이 뜸
+파일 옆에 이니셜 M이 뜸<br>
 -> modified, 즉 기존 파일을 수정했다는 뜻. 
 
 이때 git add를 조지면
@@ -153,7 +153,7 @@ modified: 1.md
 modified: 2.md
 ```
 두 파일을 수정했음. 
-근데 하나만 올리고 싶은거임
+근데 하나만 올리고 싶은거임<br>
 `git add 1.md`
 
 그럴때 `git status ` 치면
