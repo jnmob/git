@@ -82,7 +82,7 @@ staging area에 들어걈
 ### git commit
 
 add를 하고 staging area에서 대기타고있는 놈들을 **하나의 버전으로 저장하는 명령어.**
-프로젝트의 특정 시점을 저장하는 것이고, 따라서 문제 발생시 과거 변경사항을 확인할 수 있음.
+<br>프로젝트의 특정 시점을 저장하는 것이고, 따라서 문제 발생시 과거 변경사항을 확인할 수 있음.
 
 실제 입력
 
@@ -91,7 +91,7 @@ add를 하고 staging area에서 대기타고있는 놈들을 **하나의 버전
 
 ### local repository
 
-로컬 레뽀리로리 - 커밋을 한 기록이 (버전들) 여기 저장됨. ```.git``` > ```Local Repository```
+로컬 레뽀리로리 - 커밋을 한 기록이 (버전들) 여기 저장됨. <br>```.git``` > ```Local Repository```
 
 깃허브의 레뽀리로리 - Remote Repository, 걍 깃허브의 저장소라고 보면 됨. 
 
@@ -163,8 +163,35 @@ Changes to be committed:
 
 Changes not staged for commit:
     modified: 2.md
-
+```
 = 음 1.md만 커밋 대기중이구나
 
 틱마냥 머 할때마다 
 `git status` 
+
+### git log
+
+**지금까지 만들어진 커밋의 기록을 보는 명령어**
+
+`git log` 
+- 커밋의 고유 ID (커밋 해쉬)
+- 누가 커밋했는지
+- 언제 커밋했는자 
+- 커밋 메시지 
+
+`git log --oneline`
+- 말 그대로 한줄로 요약
+- 커밋 해쉬 + 커밋 메시지
+
+`git log --oneline -- 특정파일`
+- 특정 파일의 커밋 기록보기
+
+`git log --author`
+- 특정 사람이 만든 커밋만 보기
+- 협업 프젝에서 유용
+- 똥싼새기 추적 가능
+
+`git log 화면에서 쓰는 키`
+q - 종료 (터미널로 복귀)
+
+이정도만 할게 시ㅣ바
