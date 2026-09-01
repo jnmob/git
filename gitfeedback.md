@@ -122,7 +122,7 @@ Changes not staged for commit:
 
     modified: index.html
 ```
-    = Index.html이 수정됐지만 git add 하지 않음.
+= Index.html이 수정됐지만 git add 하지 않음.
 
 git add후 status - 
 ```
