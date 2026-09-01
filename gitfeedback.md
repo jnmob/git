@@ -145,3 +145,26 @@ Your branch is ahead of 'origin/main' by 1 commit.
 
 = 니 브랜치에는 커밋이 하나 있는데 깃허브에는 없다,
 깃푸쉬해라 
+
+*git status 활용*
+
+```
+modified: 1.md
+modified: 2.md
+```
+두 파일을 수정했음. 
+근데 하나만 올리고 싶은거임
+`git add 1.md`
+
+그럴때 `git status ` 치면
+```
+Changes to be committed:
+    modified: 1.md
+
+Changes not staged for commit:
+    modified: 2.md
+
+= 음 1.md만 커밋 대기중이구나
+
+틱마냥 머 할때마다 
+`git status` 
