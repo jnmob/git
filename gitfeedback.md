@@ -8,7 +8,7 @@ Git은 내 컴퓨터에서 파일의 변경 이력을 관리하는 **버전 관�
 
 예를 들어 수정 사항이 생기면
 
-```text
+```
 버전 1
 ꜜ
 버전 2
@@ -23,7 +23,7 @@ Git은 내 컴퓨터에서 파일의 변경 이력을 관리하는 **버전 관�
 ### GitHub
 GitHub는 Git으로 관리하는 프로젝트를 **인터넷에 저장할 수 있는 공간임.**
 
-```text
+```
 내 컴퓨터 (로컬)
 ꜜ
 Git
@@ -39,7 +39,7 @@ GitHub
 
 Git의 기본적인 작업 흐름은
 
-```text
+```
 vs code에서 파일 수정 (working directory)
 ↓
 git add
@@ -96,7 +96,7 @@ add를 하고 staging area에서 대기타고있는 놈들을 **하나의 버전
 깃허브의 레뽀리로리 - Remote Repository, 걍 깃허브의 저장소라고 보면 됨. 
 
 정리하자면 : 
-```text
+```
 commit 
 ↓
 local repository 
@@ -117,22 +117,25 @@ remote repository (깃헙)
 예를들어 
 
 파일을 수정 후 status -
+```
 Changes not staged for commit:
 
     modified: index.html
-
+```
     = Index.html이 수정됐지만 git add 하지 않음.
 
 git add후 status - 
+```
 Changes to be committed:
 
     modified: index.html
-
+```
 = index.html이 커밋할 준비가 됨.
 
 commit후 status - 
+```
 nothing to commit, working tree clean
-
+```
 = 커밋 후에는 변경사항 없으니까.
 
 
