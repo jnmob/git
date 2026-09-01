@@ -138,4 +138,10 @@ nothing to commit, working tree clean
 ```
 = 커밋 후에는 변경사항 없으니까.
 
+```
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+```
 
+= 니 브랜치에는 커밋이 하나 있는데 깃허브에는 없다,
+깃푸쉬해라 
